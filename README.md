@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# Pokedex - Tutoriel de Grafikart.fr
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ce projet est un Pokedex interactif développé avec React Native et Expo, inspiré du tutoriel YouTube de Grafikart.fr. Il permet d'afficher une liste de Pokémon, leurs détails et autres informations intéressantes en utilisant l'API PokéAPI.
 
-## Get started
+## 🚀 Fonctionnalités
+* 🔍 Rechercher des Pokémon : Parcourez et explorez une collection complète de Pokémon.
 
-1. Install dependencies
+* 📊 Détails complets : Affiche les statistiques, types et images de chaque Pokémon.
 
-   ```bash
-   npm install
-   ```
+* 🎨 Interface fluide : UI simple et responsive grâce à React Native.
 
-2. Start the app
+* 🌐 Consommation d'API : Récupération dynamique des données depuis PokeAPI.
 
-   ```bash
-    npx expo start
-   ```
+## 📦 Prérequis
 
-In the output, you'll find options to open the app in a
+### Assurez-vous d'avoir les éléments suivants installés :
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Node.js (version 18 ou supérieure recommandée)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Expo CLI :
+```
+npm install -g expo-cli
+```
+* Un émulateur Android/iOS ou l'application Expo Go sur votre téléphone.
 
-## Get a fresh project
+## 🛠️ Installation
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+* Clonez ce dépôt :
+```
+git clone https://github.com/Romain-Fournet/Pokedex.git
+cd Pokedex
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* Installez les dépendances :
+```
+npm install
+```
+## ▶️ Démarrage de l'application
 
-## Learn more
+Pour lancer l'application en mode développement :
+```
+npx expo start
+```
+Vous pouvez ensuite :
 
-To learn more about developing your project with Expo, look at the following resources:
+* Scanner le QR code avec Expo Go sur votre téléphone.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Lancer l'application sur un émulateur Android ou un simulateur iOS.
